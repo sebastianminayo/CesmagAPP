@@ -14,8 +14,7 @@ include 'index.php'
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>123</td>
-      <td>Artes</td>
+      <td>artes</td>
       <td>
     <a class="btn btn-success">Editar</button>
     <a class="btn btn-danger">Eliminar</button>
