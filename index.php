@@ -24,13 +24,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Facultades</a>
+          <a class="nav-link" href="facultades.php">Facultades</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Programas</a>
+          <a class="nav-link" href="programas.php">Programas</a>
         </li>
 
         </li>
