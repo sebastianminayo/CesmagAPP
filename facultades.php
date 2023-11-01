@@ -7,6 +7,7 @@ include 'conexion.php';
 <div align = "right"> 
   <a class='btn btn-primary' href="form_registro_fac.php" >Adicionar</a>
 </div>
+
 <table class="table">
   <thead>
     <tr>
@@ -27,7 +28,7 @@ include 'conexion.php';
                     echo "<td>".$row["Nombre_fac"]."</td>";
                     echo "<td>
                     <a class='btn btn-success'>Editar</a>
-                    <a class='btn btn-danger'>Eliminar</a>
+                    <a class='btn btn-danger' href='eliminarFac.php?id=".$row["Codigo_fac"]."'>Eliminar</a>
                     </td>";
                     echo "</tr>";
                 }
@@ -36,14 +37,6 @@ include 'conexion.php';
             }
             $conn->close();
         ?>
-    <tr>
-      <th scope="row">1</th>
-      <td>artes</td>
-      <td>
-    <a class="btn btn-success">Editar</button>
-    <a class="btn btn-danger" href='eliminarFac.php?id=".$row["codigo_fac"]."'>Eliminar</button>
-      </td>
-    </tr>
   </tbody>
 </table>
 </div>
