@@ -15,7 +15,6 @@ include 'index.php'
     <tr>
       <th scope="row">1</th>
       <td>diseño</td>
-    
       <td>
     <a class="btn btn-success">Editar</button>
     <a class="btn btn-danger">Eliminar</button>
