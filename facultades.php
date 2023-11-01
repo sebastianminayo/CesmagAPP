@@ -2,10 +2,10 @@
 include 'index.php';
 include 'conexion.php';
 ?>
-
+<div class = "container" >
 <h1>Listado de facultades</h1>
 <div align = "right"> 
-  <a class='btn btn-primary'>Adicionar</a>
+  <a class='btn btn-primary' href="form_registro_fac.php" >Adicionar</a>
 </div>
 <table class="table">
   <thead>
@@ -46,3 +46,4 @@ include 'conexion.php';
     </tr>
   </tbody>
 </table>
+</div>
