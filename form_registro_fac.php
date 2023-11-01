@@ -5,19 +5,14 @@ include 'conexion.php';
 
 <div class="container">
     <!-- Default form contact -->
-<form class="text-center border border-light p-5" action="#!">
+<form class="text-center border border-light p-5" action="registrarFac.php" method="POST">
+<p class="h4 mb-4">Registro de Facultad</p>    
 
-<!-- Name -->
+<!-- Codigo -->
 <input type="text" id="codigoFac" name="codigoFac" class="form-control mb-4" placeholder="Codigo">
 
-<!-- Email -->
+<!-- Nombre -->
 <input type="text" id="nombreFac" name="nombreFac" class="form-control mb-4" placeholder="Nombre">
-
-
-
-
-<!-- Copy -->
-
 
 <!-- Send button -->
 <button class="btn btn-info btn-block" type="submit">Enviar</button>

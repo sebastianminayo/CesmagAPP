@@ -41,7 +41,7 @@ include 'conexion.php';
       <td>artes</td>
       <td>
     <a class="btn btn-success">Editar</button>
-    <a class="btn btn-danger">Eliminar</button>
+    <a class="btn btn-danger" href='eliminarFac.php?id=".$row["codigo_fac"]."'>Eliminar</button>
       </td>
     </tr>
   </tbody>
